@@ -2,7 +2,7 @@
 node_modules/
 
 # Build output
-/dist
+dist
 /tsconfig.tsbuildinfo
 
 # Prisma migrations (if you don't want to include migrations)
