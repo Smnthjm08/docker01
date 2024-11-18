@@ -1,3 +1,28 @@
-# Environment configuration
-**/.env
-node_modules
+# Node.js dependencies
+node_modules/
+
+# Build output
+/dist
+/tsconfig.tsbuildinfo
+
+# Prisma migrations (if you don't want to include migrations)
+prisma/migrations/
+
+# Environment variable files (sensitive data)
+.env
+.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE specific files (e.g., Visual Studio Code)
+.vscode/
+.idea/
+
+# Docker related
+docker-compose.override.yml
+Dockerfile
